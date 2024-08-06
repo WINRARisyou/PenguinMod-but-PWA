@@ -1,0 +1,87 @@
+{
+	"short_name": "PenguinMod",
+	"name": "PenguinMod",
+	"description": "Mod of TurboWarp that was made to allow for really cool projects.",
+	"id": "studio.penguinmod.com",
+	"icons": [
+		{
+			"src": "images/192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "images/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "editor.html",
+	"background_color": "#333333",
+	"display": "standalone",
+	"theme_color": "#333333",
+	"screenshots": [
+		{
+			"src": "images/sh1.png",
+			"sizes": "1920x1080",
+			"type": "image/png",
+			"platform": "wide"
+		},
+		{
+			"src": "images/sh2.png",
+			"sizes": "1920x1080",
+			"type": "image/png",
+			"platform": "wide",
+			"form_factor": "wide"
+		}
+	],
+	"launch_handler": {
+		"client_mode": [
+			"navigate-existing",
+			"auto"
+		]
+	},
+	"handle_links": "preferred",
+	"dir": "ltr",
+	"scope": "/*",
+	"lang": "en",
+	"orientation": "landscape",
+	"display_override": [
+		"standalone",
+		"minimal_ui"
+	],
+	"categories": [
+		"education",
+		"entertainment",
+		"games"
+	],
+	"file_handlers": [
+		{
+			"action": "editor.html",
+			"accept": {
+				"application/zip": [
+					".pmp"
+				]
+			},
+			"icons": [
+				{
+					"src": "images/512.png",
+					"sizes": "512x512",
+					"type": "image/png"
+				}
+			],
+			"launch_type": "single-client"
+		}
+	],
+	"related_applications": [
+		{
+			"platform": "windows",
+			"url": "https://apps.microsoft.com/detail/9p4dpzgv5zkl",
+			"id": "9p4dpzgv5zk"
+		},
+		{
+			"platform": "windows",
+			"url": "https://apps.microsoft.com/detail/9pfgj25jl6x3",
+			"id": "9pfgj25jl6x3"
+		}
+	]
+}
