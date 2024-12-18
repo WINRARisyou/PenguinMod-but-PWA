@@ -42,7 +42,7 @@
 	},
 	"handle_links": "preferred",
 	"dir": "ltr",
-	"scope": "/*",
+	"scope": "./",
 	"lang": "en",
 	"orientation": "landscape",
 	"display_override": [
